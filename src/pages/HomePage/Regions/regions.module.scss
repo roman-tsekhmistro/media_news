@@ -1,0 +1,11 @@
+.regions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  gap: 32px;
+
+  @media (max-width: 767px) {
+    padding: 0 24px 44px;
+  }
+}

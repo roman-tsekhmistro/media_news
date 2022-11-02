@@ -1,0 +1,19 @@
+.economy {
+  display: flex;
+  gap: 32px;
+  background: #f7f7f7;
+  padding: 32px 64px 11px;
+  max-width: 76.5%;
+  width: 100%;
+
+  & ~ .news_list {
+    &:first-child {
+      font-size: 41px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+    padding: 32px 0 11px;
+  }
+}

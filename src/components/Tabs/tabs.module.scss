@@ -1,0 +1,28 @@
+.tabs {
+  display: flex;
+
+  & > * {
+    padding: 4px 8px;
+    color: #919191;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+    &:first-child {
+      color: #ff7534;
+      background: #ffeae0;
+      border-radius: 4px;
+    }
+  }
+}
+
+.regions_tabs,
+.policy_tabs,
+.lifestyle_tabs {
+  display: none;
+
+  @media (max-width: 767px) {
+    display: flex;
+  }
+}

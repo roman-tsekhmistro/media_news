@@ -1,0 +1,30 @@
+.stat_line_item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #ebebeb;
+  padding: 6px 0;
+  width: fit-content;
+
+  @media (max-width: 767px) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.img {
+  height: 20px;
+  width: 20px;
+}
+
+.text {
+  display: flex;
+  gap: 5px;
+  margin: 0;
+  align-self: flex-end;
+
+  .counter {
+    color: rgba(255, 117, 52, 1);
+  }
+}

@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-BlackItalic.eot");
+  src: local("TT Severs Black Italic"), local("TTSevers-BlackItalic"),
+    url("fonts/TT-Severs/TTSevers-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-ExtaLightItalic.eot");
+  src: local("TT Severs ExtaLight Italic"), local("TTSevers-ExtaLightItalic"),
+    url("fonts/TT-Severs/TTSevers-ExtaLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-ExtaLightItalic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-ExtaLightItalic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-ExtaLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-LightItalic.eot");
+  src: local("TT Severs Light Italic"), local("TTSevers-LightItalic"),
+    url("fonts/TT-Severs/TTSevers-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-LightItalic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-LightItalic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-ExtraBoldItalic.eot");
+  src: local("TT Severs ExtraBold Italic"), local("TTSevers-ExtraBoldItalic"),
+    url("fonts/TT-Severs/TTSevers-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-ExtraBoldItalic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-ExtraBoldItalic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-ExtraBold.eot");
+  src: local("TT Severs ExtraBold"), local("TTSevers-ExtraBold"),
+    url("fonts/TT-Severs/TTSevers-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-ExtraBold.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-ExtraBold.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-ExtaLight.eot");
+  src: local("TT Severs ExtaLight"), local("TTSevers-ExtaLight"),
+    url("fonts/TT-Severs/TTSevers-ExtaLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-ExtaLight.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-ExtaLight.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-ExtaLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-Light.eot");
+  src: local("TT Severs Light"), local("TTSevers-Light"),
+    url("fonts/TT-Severs/TTSevers-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-Light.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-Light.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-DemiBoldItalic.eot");
+  src: local("TT Severs DemiBold Italic"), local("TTSevers-DemiBoldItalic"),
+    url("fonts/TT-Severs/TTSevers-DemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-DemiBoldItalic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-DemiBoldItalic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-DemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-Italic.eot");
+  src: local("TT Severs Italic"), local("TTSevers-Italic"),
+    url("fonts/TT-Severs/TTSevers-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-Italic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-Italic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-ThinItalic.eot");
+  src: local("TT Severs Thin Italic"), local("TTSevers-ThinItalic"),
+    url("fonts/TT-Severs/TTSevers-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-ThinItalic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-ThinItalic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-Thin.eot");
+  src: local("TT Severs Thin"), local("TTSevers-Thin"),
+    url("fonts/TT-Severs/TTSevers-Thin.eot?#iefix") format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-Thin.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-Thin.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-BoldItalic.eot");
+  src: local("TT Severs Bold Italic"), local("TTSevers-BoldItalic"),
+    url("fonts/TT-Severs/TTSevers-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-BoldItalic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-BoldItalic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-Medium.eot");
+  src: local("TT Severs Medium"), local("TTSevers-Medium"),
+    url("fonts/TT-Severs/TTSevers-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-Medium.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-Medium.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-Bold.eot");
+  src: local("TT Severs Bold"), local("TTSevers-Bold"),
+    url("fonts/TT-Severs/TTSevers-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-Bold.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-Bold.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-DemiBold.eot");
+  src: local("TT Severs DemiBold"), local("TTSevers-DemiBold"),
+    url("fonts/TT-Severs/TTSevers-DemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-DemiBold.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-DemiBold.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-MediumItalic.eot");
+  src: local("TT Severs Medium Italic"), local("TTSevers-MediumItalic"),
+    url("fonts/TT-Severs/TTSevers-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-MediumItalic.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-MediumItalic.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-Black.eot");
+  src: local("TT Severs Black"), local("TTSevers-Black"),
+    url("fonts/TT-Severs/TTSevers-Black.eot?#iefix") format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-Black.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-Black.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Severs";
+  src: url("fonts/TT-Severs/TTSevers-Regular.eot");
+  src: local("TT Severs Regular"), local("TTSevers-Regular"),
+    url("fonts/TT-Severs/TTSevers-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TT-Severs/TTSevers-Regular.woff2") format("woff2"),
+    url("fonts/TT-Severs/TTSevers-Regular.woff") format("woff"),
+    url("fonts/TT-Severs/TTSevers-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

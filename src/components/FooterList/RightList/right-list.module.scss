@@ -1,0 +1,13 @@
+.right_list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 24px;
+  max-width: 200px;
+  width: 100%;
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+    align-items: center;
+  }
+}

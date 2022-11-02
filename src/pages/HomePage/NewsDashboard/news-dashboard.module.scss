@@ -1,0 +1,76 @@
+.news_dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px 32px 56px;
+  gap: 32px;
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.dashboard {
+  display: flex;
+  width: 100%;
+
+  gap: 32px;
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.news_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 40px;
+
+  & > *:first-child {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 100%;
+
+  .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #515151;
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+.policy_news_list,
+.lifestyle_news_list {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.economy_news_list {
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.lifestyle_dashboard {
+  padding: 56px 24px;
+}

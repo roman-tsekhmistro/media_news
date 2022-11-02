@@ -1,0 +1,23 @@
+.news {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  padding: 64px 64px 32px;
+  background: #f7f7f7;
+
+  @media (max-width: 1440px) {
+    gap: 32px;
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}

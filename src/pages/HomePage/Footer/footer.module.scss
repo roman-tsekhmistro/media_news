@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+
+  flex-direction: column;
+  gap: 64px;
+  width: 100%;
+  height: fit-content;
+  padding: 56px 65px 0;
+  border-top: 1px solid #dbdbdb;
+
+  @media (max-width: 767px) {
+    padding: 24px 24px;
+    gap: 40px;
+  }
+}

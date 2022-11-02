@@ -1,0 +1,28 @@
+.input {
+  position: relative;
+  padding: 0 18px;
+  width: 272px;
+  height: 37px;
+  background: #f7f7f7;
+  border-radius: 68px;
+  border: none;
+  text-indent: 36px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b0b0b0;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.magnifying_glass {
+  position: absolute;
+  margin-left: 18px;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

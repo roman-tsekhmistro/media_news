@@ -1,0 +1,20 @@
+.social_link {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+  max-width: 95px;
+  height: 21px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 16px;
+  color: #434343;
+  text-decoration: none;
+
+  &:nth-last-child(-n + 1) {
+    max-width: 200px;
+  }
+
+  @media (max-height: 767px) {
+    width: fit-content;
+  }
+}

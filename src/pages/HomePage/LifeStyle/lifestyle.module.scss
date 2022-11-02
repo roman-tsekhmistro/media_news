@@ -1,0 +1,21 @@
+.lifestyle {
+  display: flex;
+  gap: 32px;
+  background: #f7f7f7;
+  padding: 32px 64px 11px;
+  margin-bottom: 64px;
+  width: 100%;
+  max-width: 76.5%;
+
+  & ~ .news_list {
+    &:first-child {
+      font-size: 41px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 0;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+}

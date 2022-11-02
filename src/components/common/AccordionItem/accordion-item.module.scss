@@ -1,0 +1,57 @@
+.accordion_item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #f7f7f7;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2d2d;
+  border: none;
+  padding: 16px;
+  border-bottom: 1px solid #dedfe0;
+  border-radius: 2px;
+}
+
+.control {
+  height: 16px;
+  width: 16px;
+  transition: all 0.15s ease-in;
+
+  &.rotate {
+    transform: rotate(180deg);
+  }
+}
+
+.list_item {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+
+  &.active_list {
+    display: flex;
+    border-bottom: 1px solid #dedfe0;
+    border-radius: 2px;
+    padding-left: 32px;
+    padding-bottom: 16px;
+  }
+}
+
+.list_item_text {
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #515151;
+
+  &.show_text {
+    height: auto;
+  }
+}

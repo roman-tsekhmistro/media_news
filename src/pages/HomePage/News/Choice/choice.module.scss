@@ -1,0 +1,10 @@
+.choice {
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+
+  @media (max-width: 767px) {
+    padding: 0 24px;
+  }
+}

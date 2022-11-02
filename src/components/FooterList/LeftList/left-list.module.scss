@@ -1,0 +1,12 @@
+.left_list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  max-width: 90px;
+  width: 100%;
+  gap: 24px;
+}
+
+.left_list :nth-last-child(-n + 2) {
+  margin-top: -16px;
+}
